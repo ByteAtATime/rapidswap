@@ -1,0 +1,210 @@
+{
+  "address": "0xB9a6F2e13ebAA26021Aa4417c616db779054F1eC",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_uniswapRouter",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_weth",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "swapAddress",
+          "type": "address"
+        }
+      ],
+      "name": "SwapDeployed",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "UNISWAP_ROUTER",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "WETH",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_token",
+          "type": "address"
+        }
+      ],
+      "name": "deploySwap",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "deployments",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "swapAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "token",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x99adddf8d96b8a58f3b051e01389b53a1383cf67c3b9fe48c9aa275b1b15b17b",
+  "receipt": {
+    "to": null,
+    "from": "0x598cb95773D9b66a27a5780DB5EED2d018685879",
+    "contractAddress": "0xB9a6F2e13ebAA26021Aa4417c616db779054F1eC",
+    "transactionIndex": 11,
+    "gasUsed": "534103",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x4cddb01dbb138767b81320c43c353f920f659fb092a19f7cedc97a9e711961ee",
+    "transactionHash": "0x99adddf8d96b8a58f3b051e01389b53a1383cf67c3b9fe48c9aa275b1b15b17b",
+    "logs": [],
+    "blockNumber": 120836664,
+    "cumulativeGasUsed": "5642690",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "0x4200000000000000000000000000000000000006"
+  ],
+  "numDeployments": 2,
+  "solcInputHash": "89fe3d180f9d6d905829260d645aa532",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_uniswapRouter\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_weth\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"swapAddress\",\"type\":\"address\"}],\"name\":\"SwapDeployed\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"UNISWAP_ROUTER\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"WETH\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_token\",\"type\":\"address\"}],\"name\":\"deploySwap\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"deployments\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"swapAddress\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/RapidSwapFactory.sol\":\"RapidSwapFactory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.9.0) (token/ERC20/IERC20.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Interface of the ERC20 standard as defined in the EIP.\\n */\\ninterface IERC20 {\\n    /**\\n     * @dev Emitted when `value` tokens are moved from one account (`from`) to\\n     * another (`to`).\\n     *\\n     * Note that `value` may be zero.\\n     */\\n    event Transfer(address indexed from, address indexed to, uint256 value);\\n\\n    /**\\n     * @dev Emitted when the allowance of a `spender` for an `owner` is set by\\n     * a call to {approve}. `value` is the new allowance.\\n     */\\n    event Approval(address indexed owner, address indexed spender, uint256 value);\\n\\n    /**\\n     * @dev Returns the amount of tokens in existence.\\n     */\\n    function totalSupply() external view returns (uint256);\\n\\n    /**\\n     * @dev Returns the amount of tokens owned by `account`.\\n     */\\n    function balanceOf(address account) external view returns (uint256);\\n\\n    /**\\n     * @dev Moves `amount` tokens from the caller's account to `to`.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transfer(address to, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Returns the remaining number of tokens that `spender` will be\\n     * allowed to spend on behalf of `owner` through {transferFrom}. This is\\n     * zero by default.\\n     *\\n     * This value changes when {approve} or {transferFrom} are called.\\n     */\\n    function allowance(address owner, address spender) external view returns (uint256);\\n\\n    /**\\n     * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * IMPORTANT: Beware that changing an allowance with this method brings the risk\\n     * that someone may use both the old and the new allowance by unfortunate\\n     * transaction ordering. One possible solution to mitigate this race\\n     * condition is to first reduce the spender's allowance to 0 and set the\\n     * desired value afterwards:\\n     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729\\n     *\\n     * Emits an {Approval} event.\\n     */\\n    function approve(address spender, uint256 amount) external returns (bool);\\n\\n    /**\\n     * @dev Moves `amount` tokens from `from` to `to` using the\\n     * allowance mechanism. `amount` is then deducted from the caller's\\n     * allowance.\\n     *\\n     * Returns a boolean value indicating whether the operation succeeded.\\n     *\\n     * Emits a {Transfer} event.\\n     */\\n    function transferFrom(address from, address to, uint256 amount) external returns (bool);\\n}\\n\",\"keccak256\":\"0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305\",\"license\":\"MIT\"},\"contracts/RapidSwapFactory.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity >=0.8.0 <0.9.0;\\n\\nimport \\\"@openzeppelin/contracts/token/ERC20/IERC20.sol\\\";\\nimport \\\"./SwapInstance.sol\\\";\\n\\ncontract RapidSwapFactory {\\n  address public immutable UNISWAP_ROUTER;\\n  address public immutable WETH;\\n\\n  SwapDeployment[] public deployments;\\n\\n  struct SwapDeployment {\\n    uint256 id;\\n    address swapAddress;\\n    address token;\\n  }\\n\\n  event SwapDeployed(\\n    uint256 indexed id,\\n    address indexed token,\\n    address swapAddress\\n  );\\n\\n  constructor(address _uniswapRouter, address _weth) {\\n    UNISWAP_ROUTER = _uniswapRouter;\\n    WETH = _weth;\\n  }\\n\\n  function deploySwap(address _token) external {\\n    uint256 id = deployments.length;\\n\\n    SwapInstance swap = new SwapInstance(id, UNISWAP_ROUTER, address(WETH), _token);\\n\\n    deployments.push(SwapDeployment({\\n      id: id,\\n      swapAddress: address(swap),\\n      token: _token\\n    }));\\n\\n    emit SwapDeployed(id, _token, address(swap));\\n  }\\n}\\n\",\"keccak256\":\"0x597523f050052980b41ccde6de43b6c0f0b75b591149d82c9141fb42f1ee3dfd\",\"license\":\"MIT\"},\"contracts/SwapInstance.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\npragma solidity ^0.8.0;\\n\\nimport \\\"@openzeppelin/contracts/token/ERC20/IERC20.sol\\\";\\n\\ncontract SwapInstance {\\n  ISwapRouter02 public immutable UNISWAP_ROUTER;\\n  IWETH public immutable WETH;\\n\\n  uint256 public immutable id;\\n  address public immutable token;\\n\\n  constructor(uint256 _id, address _uniswap, address _weth, address _token) {\\n    id = _id;\\n    UNISWAP_ROUTER = ISwapRouter02(_uniswap);\\n    WETH = IWETH(_weth);\\n\\n    token = _token;\\n  }\\n\\n  fallback() external payable {\\n    WETH.deposit{value: msg.value}();\\n    WETH.approve(address(UNISWAP_ROUTER), msg.value);\\n\\n    ISwapRouter02.ExactInputSingleParams memory params = ISwapRouter02.ExactInputSingleParams({\\n      tokenIn: address(WETH),\\n      tokenOut: token,\\n      fee: 3000,\\n      recipient: msg.sender,\\n      amountIn: msg.value,\\n      amountOutMinimum: 0,\\n      sqrtPriceLimitX96: 0\\n    });\\n\\n    UNISWAP_ROUTER.exactInputSingle(params);\\n  }\\n}\\n\\ninterface ISwapRouter02 {\\n  struct ExactInputSingleParams {\\n    address tokenIn;\\n    address tokenOut;\\n    uint24 fee;\\n    address recipient;\\n    uint256 amountIn;\\n    uint256 amountOutMinimum;\\n    uint160 sqrtPriceLimitX96;\\n  }\\n\\n  function exactInputSingle(ExactInputSingleParams calldata params) external payable returns (uint256 amountOut);\\n}\\n\\ninterface IWETH is IERC20 {\\n  function deposit() external payable;\\n  function withdraw(uint256 amount) external;\\n}\\n\",\"keccak256\":\"0x60af31248b7d76ca85468b1b77d401805b157971d3a064b6045de12e6e7e5b0e\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x60c060405234801561001057600080fd5b5060405161098238038061098283398101604081905261002f91610062565b6001600160a01b039182166080521660a052610095565b80516001600160a01b038116811461005d57600080fd5b919050565b6000806040838503121561007557600080fd5b61007e83610046565b915061008c60208401610046565b90509250929050565b60805160a0516108bc6100c6600039600081816093015261017801526000818160d2015261015701526108bc6000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806306609bbe14610051578063ad5c46481461008e578063d8264920146100cd578063f6ef054f146100f4575b600080fd5b61006461005f366004610300565b610109565b604080519384526001600160a01b0392831660208501529116908201526060015b60405180910390f35b6100b57f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b039091168152602001610085565b6100b57f000000000000000000000000000000000000000000000000000000000000000081565b610107610102366004610319565b610149565b005b6000818154811061011957600080fd5b60009182526020909120600390910201805460018201546002909201549092506001600160a01b03918216911683565b6000808054905090506000817f00000000000000000000000000000000000000000000000000000000000000007f0000000000000000000000000000000000000000000000000000000000000000856040516101a4906102f3565b9384526001600160a01b0392831660208501529082166040840152166060820152608001604051809103906000f0801580156101e4573d6000803e3d6000fd5b50604080516060810182528481526001600160a01b0383811660208084018281528984168587018181526000805460018101825590805296517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56360039098029788015591517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e564870180546001600160a01b031990811692881692909217905591517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56590960180549092169590941694909417909355925192835292935084917f16419ec110924eb195de71006730e51c0f8e1203945d0a1d296e385329f14be1910160405180910390a3505050565b61053d8061034a83390190565b60006020828403121561031257600080fd5b5035919050565b60006020828403121561032b57600080fd5b81356001600160a01b038116811461034257600080fd5b939250505056fe61010060405234801561001157600080fd5b5060405161053d38038061053d8339810160408190526100309161006e565b60c0939093526001600160a01b03918216608052811660a0521660e0526100bb565b80516001600160a01b038116811461006957600080fd5b919050565b6000806000806080858703121561008457600080fd5b8451935061009460208601610052565b92506100a260408601610052565b91506100b060608601610052565b905092959194509250565b60805160a05160c05160e05161042261011b600039600081816101a001526103880152600061031201526000818160410152818160f50152818161017b01526102c101526000818160c70152818161023e015261035401526104226000f3fe60806040526004361061003f5760003560e01c8063ad5c4648146102af578063af640d0f14610300578063d826492014610342578063fc0c546a14610376575b7f00000000000000000000000000000000000000000000000000000000000000006001600160a01b031663d0e30db0346040518263ffffffff1660e01b81526004016000604051808303818588803b15801561009a57600080fd5b505af11580156100ae573d6000803e3d6000fd5b505060405163095ea7b360e01b81526001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000811660048301523460248301527f000000000000000000000000000000000000000000000000000000000000000016935063095ea7b3925060440190506020604051808303816000875af1158015610142573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061016691906103aa565b506040805160e0810182526001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000811682527f0000000000000000000000000000000000000000000000000000000000000000811660208301908152610bb883850190815233606085019081523460808601908152600060a0870181815260c0880191825297516304e45aaf60e01b8152875187166004820152945186166024860152925162ffffff166044850152905184166064840152516084830152935160a48201529251811660c484015290917f0000000000000000000000000000000000000000000000000000000000000000909116906304e45aaf9060e4016020604051808303816000875af1158015610289573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102ad91906103d3565b005b3480156102bb57600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b34801561030c57600080fd5b506103347f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020016102f7565b34801561034e57600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b34801561038257600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b6000602082840312156103bc57600080fd5b815180151581146103cc57600080fd5b9392505050565b6000602082840312156103e557600080fd5b505191905056fea26469706673582212207c267697ee1a4eb4b0954381a9531b2ecdbabb6a32d87dfffe7817879961ba1c64736f6c63430008110033a2646970667358221220c5d9f8ab4fe62a4c9a87e4df612e485ae2dd40d029a1dadaa6774f662c870d2764736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806306609bbe14610051578063ad5c46481461008e578063d8264920146100cd578063f6ef054f146100f4575b600080fd5b61006461005f366004610300565b610109565b604080519384526001600160a01b0392831660208501529116908201526060015b60405180910390f35b6100b57f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b039091168152602001610085565b6100b57f000000000000000000000000000000000000000000000000000000000000000081565b610107610102366004610319565b610149565b005b6000818154811061011957600080fd5b60009182526020909120600390910201805460018201546002909201549092506001600160a01b03918216911683565b6000808054905090506000817f00000000000000000000000000000000000000000000000000000000000000007f0000000000000000000000000000000000000000000000000000000000000000856040516101a4906102f3565b9384526001600160a01b0392831660208501529082166040840152166060820152608001604051809103906000f0801580156101e4573d6000803e3d6000fd5b50604080516060810182528481526001600160a01b0383811660208084018281528984168587018181526000805460018101825590805296517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56360039098029788015591517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e564870180546001600160a01b031990811692881692909217905591517f290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e56590960180549092169590941694909417909355925192835292935084917f16419ec110924eb195de71006730e51c0f8e1203945d0a1d296e385329f14be1910160405180910390a3505050565b61053d8061034a83390190565b60006020828403121561031257600080fd5b5035919050565b60006020828403121561032b57600080fd5b81356001600160a01b038116811461034257600080fd5b939250505056fe61010060405234801561001157600080fd5b5060405161053d38038061053d8339810160408190526100309161006e565b60c0939093526001600160a01b03918216608052811660a0521660e0526100bb565b80516001600160a01b038116811461006957600080fd5b919050565b6000806000806080858703121561008457600080fd5b8451935061009460208601610052565b92506100a260408601610052565b91506100b060608601610052565b905092959194509250565b60805160a05160c05160e05161042261011b600039600081816101a001526103880152600061031201526000818160410152818160f50152818161017b01526102c101526000818160c70152818161023e015261035401526104226000f3fe60806040526004361061003f5760003560e01c8063ad5c4648146102af578063af640d0f14610300578063d826492014610342578063fc0c546a14610376575b7f00000000000000000000000000000000000000000000000000000000000000006001600160a01b031663d0e30db0346040518263ffffffff1660e01b81526004016000604051808303818588803b15801561009a57600080fd5b505af11580156100ae573d6000803e3d6000fd5b505060405163095ea7b360e01b81526001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000811660048301523460248301527f000000000000000000000000000000000000000000000000000000000000000016935063095ea7b3925060440190506020604051808303816000875af1158015610142573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061016691906103aa565b506040805160e0810182526001600160a01b037f0000000000000000000000000000000000000000000000000000000000000000811682527f0000000000000000000000000000000000000000000000000000000000000000811660208301908152610bb883850190815233606085019081523460808601908152600060a0870181815260c0880191825297516304e45aaf60e01b8152875187166004820152945186166024860152925162ffffff166044850152905184166064840152516084830152935160a48201529251811660c484015290917f0000000000000000000000000000000000000000000000000000000000000000909116906304e45aaf9060e4016020604051808303816000875af1158015610289573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906102ad91906103d3565b005b3480156102bb57600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b34801561030c57600080fd5b506103347f000000000000000000000000000000000000000000000000000000000000000081565b6040519081526020016102f7565b34801561034e57600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b34801561038257600080fd5b506102e37f000000000000000000000000000000000000000000000000000000000000000081565b6000602082840312156103bc57600080fd5b815180151581146103cc57600080fd5b9392505050565b6000602082840312156103e557600080fd5b505191905056fea26469706673582212207c267697ee1a4eb4b0954381a9531b2ecdbabb6a32d87dfffe7817879961ba1c64736f6c63430008110033a2646970667358221220c5d9f8ab4fe62a4c9a87e4df612e485ae2dd40d029a1dadaa6774f662c870d2764736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 89,
+        "contract": "contracts/RapidSwapFactory.sol:RapidSwapFactory",
+        "label": "deployments",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_array(t_struct(SwapDeployment)96_storage)dyn_storage"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_struct(SwapDeployment)96_storage)dyn_storage": {
+        "base": "t_struct(SwapDeployment)96_storage",
+        "encoding": "dynamic_array",
+        "label": "struct RapidSwapFactory.SwapDeployment[]",
+        "numberOfBytes": "32"
+      },
+      "t_struct(SwapDeployment)96_storage": {
+        "encoding": "inplace",
+        "label": "struct RapidSwapFactory.SwapDeployment",
+        "members": [
+          {
+            "astId": 91,
+            "contract": "contracts/RapidSwapFactory.sol:RapidSwapFactory",
+            "label": "id",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256"
+          },
+          {
+            "astId": 93,
+            "contract": "contracts/RapidSwapFactory.sol:RapidSwapFactory",
+            "label": "swapAddress",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address"
+          },
+          {
+            "astId": 95,
+            "contract": "contracts/RapidSwapFactory.sol:RapidSwapFactory",
+            "label": "token",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_address"
+          }
+        ],
+        "numberOfBytes": "96"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

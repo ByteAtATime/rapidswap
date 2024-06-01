@@ -1,0 +1,17 @@
+{
+  "localhost": {
+    "RapidSwapFactory": {
+      "address": "0x18b7CBdfFA52d1e7BB992fd50f394c5b59E20B72"
+    }
+  },
+  "sepolia": {
+    "RapidSwapFactory": {
+      "address": "0xA36e5Fa96dBc93C13276e0A7Da09fe7A8010fB45"
+    }
+  },
+  "optimism": {
+    "RapidSwapFactory": {
+      "address": "0xEC3aEf6c2b8B394eEd0E9D92286E716C6CCE5B81"
+    }
+  }
+}

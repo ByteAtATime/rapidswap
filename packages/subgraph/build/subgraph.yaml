@@ -1,0 +1,29 @@
+specVersion: 0.0.4
+description: Greetings
+repository: https://github.com/ByteAtATime/rapidswap/main/packages/subgraph/
+schema:
+  file: schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: RapidSwapFactory
+    network: optimism
+    source:
+      abi: RapidSwapFactory
+      address: "0xb9a6f2e13ebaa26021aa4417c616db779054f1ec"
+      startBlock: 120836664
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.6
+      language: wasm/assemblyscript
+      entities:
+        - SwapInstance
+        - Token
+      abis:
+        - name: RapidSwapFactory
+          file: RapidSwapFactory/abis/localhost_RapidSwapFactory.json
+        - name: ERC20
+          file: RapidSwapFactory/abis/ERC20.json
+      eventHandlers:
+        - event: SwapDeployed(indexed uint256,indexed address,address)
+          handler: handleSwapDeployed
+      file: RapidSwapFactory/RapidSwapFactory.wasm

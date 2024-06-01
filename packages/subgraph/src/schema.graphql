@@ -1,0 +1,14 @@
+type SwapInstance @entity {
+  id: String!
+  deployer: Bytes!
+  deployedAt: BigInt!
+  swapAddress: Bytes!
+  token: Token!
+}
+
+type Token @entity {
+  id: Bytes! # address
+  symbol: String!
+  name: String!
+  decimals: Int!
+}
